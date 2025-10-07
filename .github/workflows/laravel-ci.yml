@@ -18,6 +18,9 @@ jobs:
           php-version: '8.2'
           extensions: mbstring, intl, bcmath, pdo_sqlite, dom, curl, fileinfo, json
           coverage: none
+        
+      - name: Instalar composer 2 y dependencias
+        run: composer install --no-interaction --prefer-dist --optimize-autoloader
 
       - name: Copiar .env
         run: php -r "file_exists('.env') || copy('.env.example', '.env');"
