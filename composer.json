@@ -1,0 +1,13 @@
+{
+    "name": "aleja/larabel-ci",
+    "description": "test for ci w php and larabel",
+    "require": {
+        "laravel/framework": "^12.33"
+    },
+    "authors": [
+        {
+            "name": "Alejandro Medina",
+            "email": "weaqla.xd@gmail.com"
+        }
+    ]
+}
